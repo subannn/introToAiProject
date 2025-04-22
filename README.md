@@ -1,4 +1,4 @@
-**Requirements:** pip install tensorflow numpy pillow
+**Requirements:** pip install tensorflow numpy
 
 **To test model:** python test.py
 

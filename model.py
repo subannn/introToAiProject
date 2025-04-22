@@ -7,8 +7,8 @@ from tensorflow.keras.optimizers import Adam
 train_dir = 'data/train'
 
 img_size = (224, 224)
-batch_size = 16
-epochs = 15
+batch_size = 32
+epochs = 20
 
 datagen = ImageDataGenerator(
     rescale=1./255,
@@ -43,8 +43,8 @@ predictions = Dense(1, activation='sigmoid')(x)
 
 model = Model(inputs=base_model.input, outputs=predictions)
 
-# for layer in base_model.layers:
-#     layer.trainable = False
+for layer in base_model.layers:
+    layer.trainable = False
 
 model.compile(optimizer=Adam(learning_rate=0.0001),
               loss='binary_crossentropy',

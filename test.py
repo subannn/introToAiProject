@@ -11,7 +11,7 @@ model = load_model('road_quality_model.h5')
 cntGood = 0
 cntPoor = 0
 cnt1, cnt2 = 0.0, 0.0
-for label in ['poor', 'good']:
+for label in ['good', 'poor']:
     folder_path = os.path.join(test_dir, label)
     print(f"\n=== Проверяем {label.upper()} ===")
 

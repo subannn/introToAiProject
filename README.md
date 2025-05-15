@@ -44,7 +44,7 @@ I did not use ResNet as I said before — instead, I decided to use a simple CNN
 - **Rotation (20°):** Simulates camera angle changes from drones or vehicles.  
 - **Zoom (0.2):** Accounts for varying distances from the road surface.  
 - **Horizontal flip:** Introduces left/right symmetry, useful for bidirectional roads.  
-- **Validation split (0.2):** Helps monitor generalization and prevent overfitting.  
+- **Validation split (0.2)**
 
 ---
 

@@ -1,7 +1,7 @@
-**Requirements:** pip install tensorflow numpy
+**Requirements:** pip install tensorflow numpy, and other things that will trow terminal :DDD
+
+
+**Train model:** python model.py
+
 
 **To test model:** python test.py
-
-
-
-Model is not ready, i need to do some changes with coefficients and train it on university computers.
